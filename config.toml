@@ -1,4 +1,4 @@
-baseURL = "https://jhsrojasro.github.io/showcase"
+baseURL = "https://jhsrojasro.github.io/visualcomputing/showcase"
 languageCode = "en-us"
 title = "Showcase Template"
 theme = 'book'
