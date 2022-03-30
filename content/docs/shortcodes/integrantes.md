@@ -9,6 +9,11 @@
 		<ul>
 			<li>Intereses Académicos: Reinforcement Learning</li>
 			<li>Pasatiempos: Tenis de Mesa, Música Clásica</li>
-		</ul>	
+		</ul>
+	<li> Vladimir Vargas Diaz </li>
+		<ul>
+			<li>Intereses Académicos: Desarrollo Web, Inteligencia Artificial </li>
+			<li>Pasatiempos: Videojuegos, Billar, Ping pong</li>
+		</ul>
 </ol>
 
