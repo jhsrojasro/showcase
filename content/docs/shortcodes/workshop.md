@@ -4,6 +4,11 @@ Aplicación de redes neuronales para clasificar imagenes segun el clima.
 ### Introducción  
 #### Red neuronal convolucional (Convolutional Neural Network)
 Es un algoritmo de aprendizaje profundo que toma como entrada una imagen, asigna importancia a varios aspectos u objetos de la misma y los diferencia. Lo consigue a través de la aplicación de filtros relevantes. La arquitectura de una CNN es análoga a los patrones de conectividad de neuronas del cerebro humano y fue inspirada en la organización de la corteza visual.
+
+Una red neuronal convolucional puede capturar con éxito las dependencias espaciales y temporales de una imagen mediante la aplicación de filtros. La arquitectura realiza un mejor ajuste al conjunto de datos de la imagen debido a la reducción en la cantidad de parámetros involucrados y la reutilización de los pesos. En otras palabras, la red puede ser entrenada para comprender mejor la sofisticación de la imagen.
+
+<img width="345" alt="dataset" src="https://miro.medium.com/max/1052/1*GcI7G-JLAQiEoCON7xFbhg.gif"> 
+
 #### Aprendizaje por transferencia
 
 ### Contexto  
