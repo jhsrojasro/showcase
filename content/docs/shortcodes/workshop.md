@@ -51,7 +51,8 @@ Es claro que el modelo DenseNet tuvo mejor desempeño en el conjunto de datos de
 <img width="512" alt="prediccion denseNet" src="https://user-images.githubusercontent.com/39863678/161894404-dedb773e-2fd9-414c-aebc-3c23b7fe8ab4.PNG">  
 
 ##### EfficientNet  
-<img width="415" alt="prediccion efficientNet" src="https://user-images.githubusercontent.com/39863678/161894416-5f2028cb-d7b5-4e85-ac5e-61295c192d7d.PNG">
+<img width="415" alt="prediccion efficientNet" src="https://user-images.githubusercontent.com/39863678/161894416-5f2028cb-d7b5-4e85-ac5e-61295c192d7d.PNG">  
+
 El modelo DenseNet presenta un claro sobreajuste al conjunto de datos, no generaliza bien la función clasificadora.
 
 ### Conclusiones  
