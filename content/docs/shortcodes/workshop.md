@@ -7,7 +7,15 @@ Es un algoritmo de aprendizaje profundo que toma como entrada una imagen, asigna
 
 Una red neuronal convolucional puede capturar con éxito las dependencias espaciales y temporales de una imagen mediante la aplicación de filtros. La arquitectura realiza un mejor ajuste al conjunto de datos de la imagen debido a la reducción en la cantidad de parámetros involucrados y la reutilización de los pesos. En otras palabras, la red puede ser entrenada para comprender mejor la sofisticación de la imagen.
 
+Imagen de Entrada:
+<img width="345" alt="dataset" src="https://user-images.githubusercontent.com/55771991/161895985-e847bcc6-010f-41bc-a251-17c9d5c1bd55.png"> 
+En la figura, tenemos una imagen RGB que ha sido separada por sus tres planos de color: rojo, verde y azul.
+Desde el punto de vista computacional se volverían intensas las cosas una vez que las imágenes alcanzarán dimensiones de 8K (7680 × 4320). El papel de redes convolucionales es reducir las imágenes a una forma que sea más fácil de procesar, sin perder características que son críticas para obtener una buena predicción. 
+
+Capa de convolución: el kernel:
 <img width="345" alt="dataset" src="https://miro.medium.com/max/1052/1*GcI7G-JLAQiEoCON7xFbhg.gif"> 
+La sección verde se asemeja a nuestra imagen de entrada de 5x5x1. El elemento involucrado en la realización de la operación de convolución en la primera parte de una Capa Convolucional se llama Kernel/Filtro, K, representado en color amarillo. Hemos seleccionado K como matriz de 3x3x1.
+
 
 #### Aprendizaje por transferencia
 
