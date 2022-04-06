@@ -20,7 +20,8 @@ Se experimentó con dos arquitecturas de redes neuronales convolucionales:  Effi
 <img width="562" alt="efficientNet b7" src="https://user-images.githubusercontent.com/39863678/161894363-bf2332f2-874c-4b11-9558-807272d3841c.PNG">
 
 ##### DenseNet  
-<img width="422" alt="denseNet" src="https://user-images.githubusercontent.com/39863678/161894387-6a4c6adc-e62e-4654-bef9-11e379c2f9d1.PNG">
+<img width="422" alt="denseNet" src="https://user-images.githubusercontent.com/39863678/161894387-6a4c6adc-e62e-4654-bef9-11e379c2f9d1.PNG">  
+
 ### Resultados  
 Del entrenamiento de ambos modelos, se obtuvieron las siguientes métricas:
 <table>
@@ -44,12 +45,15 @@ Del entrenamiento de ambos modelos, se obtuvieron las siguientes métricas:
   </tr>
 </tbody>
 </table>
-Es claro que el modelo DenseNet tuvo mejor desempeño en el conjunto de datos de entrenamiento, sin embargo en la prueba que se planteó con imágenes de la Universidad, las clasificaciones de este modelo no fueron tan buenas como las de EfficientNet:
+Es claro que el modelo DenseNet tuvo mejor desempeño en el conjunto de datos de entrenamiento, sin embargo en la prueba que se planteó con imágenes de la Universidad, las clasificaciones de este modelo no fueron tan buenas como las de EfficientNet:  
+
 ##### DenseNet  
-<img width="512" alt="prediccion denseNet" src="https://user-images.githubusercontent.com/39863678/161894404-dedb773e-2fd9-414c-aebc-3c23b7fe8ab4.PNG">
+<img width="512" alt="prediccion denseNet" src="https://user-images.githubusercontent.com/39863678/161894404-dedb773e-2fd9-414c-aebc-3c23b7fe8ab4.PNG">  
+
 ##### EfficientNet  
 <img width="415" alt="prediccion efficientNet" src="https://user-images.githubusercontent.com/39863678/161894416-5f2028cb-d7b5-4e85-ac5e-61295c192d7d.PNG">
 El modelo DenseNet presenta un claro sobreajuste al conjunto de datos, no generaliza bien la función clasificadora.
+
 ### Conclusiones  
 <ul>
   <li>Las redes neuronales convolucionales son aproximadores de funciones con los que se puede resolver el problema de clasificación de imágenes según el clima presente.</li> 
