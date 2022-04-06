@@ -36,10 +36,7 @@ Cuando aumentamos la imagen de 5x5x1 a una imagen de 6x6x1 y luego aplicamos el 
 
 Por otro lado, si realizamos la misma operación sin relleno, se nos presenta una matriz que tiene las dimensiones del propio Kernel (3x3x1): Valid Padding.
 
-#### Aprendizaje por transferencia
-
 ### Contexto  
-#### Clasificación de imágenes usando redes neuronales convolucionales  
 #### Conjunto de datos  
 El conjunto de datos utilizado para entrenar la red neuronal fue compartido en la plataforma Kaggle y contiene 6862 imágenes de diferentes tipos de clima, es comúnmente usado para implementar tareas de clasificación de clima basado en imágenes. Las fotos están divididas en 11 clases.  
 <img width="345" alt="dataset" src="https://user-images.githubusercontent.com/39863678/161894269-8e193d10-4a1e-4d60-8e65-787f5d4a1b55.PNG"> 
