@@ -9,7 +9,7 @@ Es un algoritmo de aprendizaje profundo que toma como entrada una imagen, asigna
 ### Contexto  
 #### Clasificación de imágenes usando redes neuronales convolucionales  
 #### Conjunto de datos  
-El conjunto de datos utilizado para entrenar la red neuronal fue compartido en la plataforma Kaggle y contiene 6862 imágenes de diferentes tipos de clima, es comúnmente usado para implementar tareas de clasificación de clima basado en imágenes. Las fotos están divididas en 11 clases.
+El conjunto de datos utilizado para entrenar la red neuronal fue compartido en la plataforma Kaggle y contiene 6862 imágenes de diferentes tipos de clima, es comúnmente usado para implementar tareas de clasificación de clima basado en imágenes. Las fotos están divididas en 11 clases.  
 <img width="345" alt="dataset" src="https://user-images.githubusercontent.com/39863678/161894269-8e193d10-4a1e-4d60-8e65-787f5d4a1b55.PNG"> 
 #### Modelos de redes neuronales convolucionales
 
