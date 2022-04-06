@@ -15,10 +15,10 @@ El conjunto de datos utilizado para entrenar la red neuronal fue compartido en l
 
 Se experimentó con dos arquitecturas de redes neuronales convolucionales:  EfficientNet y DenseNet.
 ##### EfficientNet
-![efficientNet modulos](img/modulos.png)
-![efficientNet arquitectura](img/efficentNet b7.png)
+![efficientNet modulos](/img/modulos.png)
+![efficientNet arquitectura](/img/efficentNet b7.png)
 ##### DenseNet
-![efficientNet modulos](img/denseNet.png)
+![efficientNet modulos](/img/denseNet.png)
 ### Resultados
 Del entrenamiento de ambos modelos, se obtuvieron las siguientes métricas:
 <table>
@@ -44,9 +44,9 @@ Del entrenamiento de ambos modelos, se obtuvieron las siguientes métricas:
 </table>
 Es claro que el modelo DenseNet tuvo mejor desempeño en el conjunto de datos de entrenamiento, sin embargo en la prueba que se planteó con imágenes de la Universidad, las clasificaciones de este modelo no fueron tan buenas como las de EfficientNet:
 ##### DenseNet  
-![efficientNet modulos](img/prediccion denseNet.png)
+![efficientNet modulos](/img/prediccion denseNet.png)
 ##### EfficientNet  
-![efficientNet modulos](img/denseNet.png)  
+![efficientNet modulos](/img/denseNet.png)  
 El modelo DenseNet presenta un claro sobreajuste al conjunto de datos, no generaliza bien la función clasificadora.
 ### Conclusiones
 <ul>
