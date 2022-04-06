@@ -27,12 +27,14 @@ En el caso de imágenes con múltiples canales (por ejemplo, RGB), el Kernel tie
 <img width="345" alt="dataset" src="https://miro.medium.com/max/790/1*1VJDP6qDY9-ExTuQVEOlVg.gif"> 
 
 El objetivo de la operación de convolución es extraer las características de alto nivel, como los bordes, de la imagen de entrada. No necesitan estar limitadas a una sola capa convolucional. Convencionalmente, el primer ConvLayer es responsable de capturar las características de bajo nivel, como los bordes, el color, la orientación del degradado, etc. Con capas adicionales, la arquitectura también se adapta a las características de alto nivel, brindándonos una red que tiene la comprensión completa de imágenes en el conjunto de datos.
+
 Hay dos tipos de resultados para la operación: uno en el que la característica convolucionada se reduce en dimensionalidad en comparación con la entrada, y el otro en el que la dimensionalidad aumenta o permanece igual. Esto se hace aplicando Valid Padding en el caso del primero, o Same Padding en el caso del segundo.
 
 <img width="345" alt="dataset" src="https://miro.medium.com/max/790/1*nYf_cUIHFEWU1JXGwnz-Ig.gif"> 
 
-Cuando aumentamos la imagen de 5x5x1 a una imagen de 6x6x1 y luego aplicamos el kernel de 3x3x1 sobre ella, encontramos que la matriz convolucionada resulta ser de dimensiones 5x5x1. De ahí el nombre: el mismo relleno.
-Por otro lado, si realizamos la misma operación sin relleno, se nos presenta una matriz que tiene las dimensiones del propio Kernel (3x3x1): Relleno válido.
+Cuando aumentamos la imagen de 5x5x1 a una imagen de 6x6x1 y luego aplicamos el kernel de 3x3x1 sobre ella, encontramos que la matriz convolucionada resulta ser de dimensiones 5x5x1. De ahí el nombre: el Same Padding.
+
+Por otro lado, si realizamos la misma operación sin relleno, se nos presenta una matriz que tiene las dimensiones del propio Kernel (3x3x1): Valid Padding.
 
 #### Aprendizaje por transferencia
 
