@@ -55,17 +55,20 @@ El modelo DenseNet presenta un claro sobreajuste al conjunto de datos, no genera
   <li>Las redes neuronales convolucionales son aproximadores de funciones con los que se puede resolver el problema de clasificación de imágenes según el clima presente.</li> 
   <li>Se entrenaron dos modelos de redes neuronales populares usando un conjunto de datos público.</li>
   <li>Uno de los modelos entrenados pudo clasificar parcialmente las imágenes de prueba de la universidad.</li>
-</ul>
+</ul>  
+
 ### Trabajo Futuro
 Como trabajo futuro se recomiendan los siguientes caminos:
-<ul>
+<ul> 
   <li>Probar con otras arquitecturas de redes neuronales convolucionales.</li>
   <li>Probar diferentes configuraciones de hiper parámetros de los modelos para determinar si se pueden obtener mejores resultados.</li>
   <li>Probar otras técnicas de clasificación de imágenes</li>
   <li>Migrar los modelos a tensorflow.js y ml5 para facilitar su visualización en entornos web.</li>
-</ul>
+</ul>   
+
 ### Notebook   
-https://colab.research.google.com/drive/1b9sXwW_IOtLZ4BzwTOUcfQmpo7fS5M_u?usp=sharing
+https://colab.research.google.com/drive/1b9sXwW_IOtLZ4BzwTOUcfQmpo7fS5M_u?usp=sharing   
+
 ### Referencias
 <ul>
   <li>Chahar, Vijay & Jaiswal, Aayush & Gianchandani, Neha & Singh, Dilbag & Kaur, Manjit. (2020). Classification of the COVID-19 infected patients using DenseNet201 based deep transfer learning. Journal of biomolecular Structure & Dynamics. 39. 10.1080/07391102.2020.1788642.</li>
