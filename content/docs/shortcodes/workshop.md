@@ -7,21 +7,21 @@ Es un algoritmo de aprendizaje profundo que toma como entrada una imagen, asigna
 #### Aprendizaje por transferencia
 
 ### Contexto  
-#### Clasificación de imágenes usando redes neuronales convolucionales
-#### Conjunto de datos
+#### Clasificación de imágenes usando redes neuronales convolucionales  
+#### Conjunto de datos  
 El conjunto de datos utilizado para entrenar la red neuronal fue compartido en la plataforma Kaggle y contiene 6862 imágenes de diferentes tipos de clima, es comúnmente usado para implementar tareas de clasificación de clima basado en imágenes. Las fotos están divididas en 11 clases.
 <img width="345" alt="dataset" src="https://user-images.githubusercontent.com/39863678/161894269-8e193d10-4a1e-4d60-8e65-787f5d4a1b55.PNG"> 
 #### Modelos de redes neuronales convolucionales
 
 Se experimentó con dos arquitecturas de redes neuronales convolucionales:  EfficientNet y DenseNet.
-##### EfficientNet
+##### EfficientNet  
 <img width="547" alt="modulos" src="https://user-images.githubusercontent.com/39863678/161894334-5861b7ac-6c3f-4fef-93f4-1bd3d38db0d6.PNG">
 
 <img width="562" alt="efficientNet b7" src="https://user-images.githubusercontent.com/39863678/161894363-bf2332f2-874c-4b11-9558-807272d3841c.PNG">
 
-##### DenseNet
+##### DenseNet  
 <img width="422" alt="denseNet" src="https://user-images.githubusercontent.com/39863678/161894387-6a4c6adc-e62e-4654-bef9-11e379c2f9d1.PNG">
-### Resultados
+### Resultados  
 Del entrenamiento de ambos modelos, se obtuvieron las siguientes métricas:
 <table>
 <thead>
@@ -50,14 +50,14 @@ Es claro que el modelo DenseNet tuvo mejor desempeño en el conjunto de datos de
 ##### EfficientNet  
 <img width="415" alt="prediccion efficientNet" src="https://user-images.githubusercontent.com/39863678/161894416-5f2028cb-d7b5-4e85-ac5e-61295c192d7d.PNG">
 El modelo DenseNet presenta un claro sobreajuste al conjunto de datos, no generaliza bien la función clasificadora.
-### Conclusiones
+### Conclusiones  
 <ul>
   <li>Las redes neuronales convolucionales son aproximadores de funciones con los que se puede resolver el problema de clasificación de imágenes según el clima presente.</li> 
   <li>Se entrenaron dos modelos de redes neuronales populares usando un conjunto de datos público.</li>
   <li>Uno de los modelos entrenados pudo clasificar parcialmente las imágenes de prueba de la universidad.</li>
 </ul>  
 
-### Trabajo Futuro
+### Trabajo Futuro  
 Como trabajo futuro se recomiendan los siguientes caminos:
 <ul> 
   <li>Probar con otras arquitecturas de redes neuronales convolucionales.</li>
