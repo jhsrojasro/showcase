@@ -13,6 +13,7 @@
 {{ if isset .Params "lib3" }} <script src={{ $lib3 }}></script> {{ end }}
 {{ if isset .Params "lib4" }} <script src={{ $lib4 }}></script> {{ end }}
 {{ if isset .Params "lib5" }} <script src={{ $lib5 }}></script> {{ end }}
-<script src={{ $sketch }}></script>
-
+<div id="sketch-holder">
+    <script src={{ $sketch }}></script>
+</div>
 <div id="{{ strings.TrimSuffix ".js" (path.Base $sketch) }}"></div>

@@ -31,14 +31,17 @@ function preload() {
 
 function setup() {
   canvas = createCanvas(400,400);
-  canvas.position(left,200)
+  canvas.parent('sketch-holder');
+  
   input = createFileInput(handleFile);
-  input.position(left,0,'relative');
+  input.parent('sketch-holder');
+
   classifier.classify(img, gotResult);
   labelDiv = createDiv(`<h4>Label: ${label}</h4>`)
-  labelDiv.position(left, up);
+  labelDiv.parent('sketch-holder');
+  
   confidenceDiv = createDiv(`<h4>Confidence: ${confidence}</h4>`)
-  confidenceDiv.position(left,up+pad);
+  confidenceDiv.parent('sketch-holder');
 }
 
 function draw() {
@@ -48,12 +51,12 @@ function draw() {
   if(label){
     labelDiv.hide();
     labelDiv = createDiv(`<h4>Label: ${label}</h4>`)
-    labelDiv.position(left, up);
+    labelDiv.parent('sketch-holder');
   }
   if(confidence){
     confidenceDiv.hide();
     confidenceDiv = createDiv(`<h4>Confidence: ${confidence}</h4>`)
-    confidenceDiv.position(left,up+pad);
+    confidenceDiv.parent('sketch-holder');
   }
 }
 
