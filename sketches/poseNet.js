@@ -13,9 +13,10 @@ let poseNet;
 let poses = [];
 
 function setup() {
-  createCanvas(640, 480);
+  canvas = createCanvas(640, 480);
   video = createCapture(VIDEO);
   video.size(width, height);
+  canvas.parent('sketch-holder');
 
   // Create a new poseNet method with a single detection
   poseNet = ml5.poseNet(video, modelReady);
