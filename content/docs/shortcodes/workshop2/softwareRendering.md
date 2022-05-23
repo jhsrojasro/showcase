@@ -201,3 +201,15 @@ formatos vectoriales 2D.</li>
 informática virtualmente infinita. Cree rápidamente imágenes fotorrealistas y de alta
 resolución en una fracción del tiempo requerido en su escritorio.</li>
 </ul>
+
+## Ejemplos de software de renderizado
+
+### ComputeRaster
+
+La rasterización es una de las técnicas típicas de renderizado de modelos 3D, en
+comparación con otras técnicas como el trazado de rayos, es mucho más rápida y, por lo
+tanto, se utiliza en la mayoría de los motores 3D en tiempo real.
+Rasterizador de software en tiempo real que utiliza shaders de cómputo, incluida la etapa de
+procesamiento de vértices y rasterización de píxeles. El sombreador, o shader, es un
+programa o aplicación informática que se ejecuta en la tarjeta gráfica o GPU, y que permite
+realizar las sombras de los gráficos de un modelo.
