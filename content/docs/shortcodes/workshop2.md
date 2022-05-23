@@ -42,9 +42,13 @@ Si está trabajando para crear un objeto o una estructura en 3D, su arsenal de p
 software debería permitirle planificar y diseñar también en 3D. Ahí es donde entra en juego
 el software de renderizado 3D. Estas soluciones ofrecen una serie de beneficios diferentes
 a los diseñadores, que incluyen, entre otros:
-● <b>Comunicación visual mejorada:</b> la mejor manera de describir su diseño en cada
+<ul>
+<li><b>Comunicación visual mejorada:</b> la mejor manera de describir su diseño en cada
 etapa del proceso, ya sea a clientes o colegas, es mostrándoles. Las herramientas
 de renderizado 3D brindan a esas audiencias una imagen clara de su visión, junto
-con una buena idea de cómo se verá finalmente el producto terminado.
-● <b>Precisión y exactitud:</b> las soluciones de software de renderizado 3D ofrecen a los
-usuarios un control total sobre sus diseños. Estas herramientas generalmente se
+con una buena idea de cómo se verá finalmente el producto terminado. </li>
+<li><b>Precisión y exactitud:</b> las soluciones de software de renderizado 3D ofrecen a los
+usuarios un control total sobre sus diseños. Estas herramientas generalmente se</li>
+<li></li>
+</ul>
+
