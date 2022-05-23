@@ -3,7 +3,7 @@ let video;
 let hands = [];
 
 function setup() {
-  canvas = createCanvas(640, 480);
+  canvas = createCanvas(600, 400);
   canvas.parent('sketch-holder');
   video = createCapture(VIDEO);
   video.size(width, height);
@@ -14,6 +14,7 @@ function setup() {
   // with an array every time new hand poses are detected
   handpose.on("hand", results => {
     hands = results;
+    calculateDepth();
   });
 
   // Hide the video element, and just show the canvas
@@ -41,5 +42,22 @@ function drawKeypoints() {
       noStroke();
       ellipse(keypoint[0], keypoint[1], 10, 10);
     }
+  }
+}
+
+function calculateDepth(){
+  for (let i =0; i< hands.length; i += 1 ){
+    const hand = hands[i];
+    let mean = 0; 
+    for (let j =0; j<hand.landmarks.length; j+=1) {
+      const keypoint = hand.landmarks[j];
+      mean += keypoint[2];
+    }
+    max_depth = 60;
+    min_depth = -10;
+    depth = mean / hand.landmarks.length * -1;
+    depth -= min_depth;
+    depth /= max_depth - min_depth;
+    document.cookie = "depth="+depth.toString();
   }
 }
