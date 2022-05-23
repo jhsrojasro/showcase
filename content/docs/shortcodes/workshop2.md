@@ -82,15 +82,60 @@ manipular su modelo de construcción desde cualquier ángulo. </li>
 renderizado 3D para fines similares a los de los animadores. Las herramientas de
 representación 3D permiten a los usuarios crear medios más interactivos. Esto
 permite a los anunciantes crear anuncios más atractivos para su audiencia.
-Características del software de renderizado 3D
+ </li>
+</ul>
+
+## Características del software de renderizado 3D
+
 Las soluciones de software de renderizado 3D vienen equipadas con una serie de
 características para las necesidades de diseño de los usuarios. Las siguientes
 características se pueden encontrar comúnmente en las soluciones de software de
-renderizado 3D: </li>
+renderizado 3D:
+<ul>
+<li><b>Modelado de superficies:</b> estas herramientas permiten a los usuarios continuar
+trabajando en sus modelos 3D una vez que se han importado a la solución de
+renderizado 3D. Puede modificar, alinear y transformar digitalmente la geometría de
+sus objetos. </li>
+<li><b>Herramientas de animación: </b>las soluciones de renderizado 3D suelen incluir
+funciones de animación de personajes. Esta funcionalidad permite al usuario detallar
+la superficie del modelo, además de perfeccionar sus movimientos.</li>
+<li><b>Rutas de movimiento:</b> esta función permite a los usuarios obtener una vista previa de
+la ruta que seguirán los objetos animados. Puede ajustar la dirección de las rutas y
+convertirlas en y desde splines. Los usuarios también pueden agregar una curva a la
+ruta del objeto si lo desean.</li>
 <li><b>Configuración de renderizado:</b> una solución de renderizado 3D debería permitirle
 generar plantillas para renderizar rápidamente una escena compleja para que
-puedan reutilizarse fácilmente en el futuro.
-  </li>
+puedan reutilizarse fácilmente en el futuro.  </li>
+<li><b>Cámara física:</b> el software de representación 3D puede ofrecer una cámara física
+que se integrará con su escena. Esta función es ideal para los usuarios que esperan
+crear una representación fotorrealista basada en la física. Además, la integración de
+una cámara física puede ayudar con el control de la exposición.</li>
 </ul>
 
+## Tendencias relacionadas con el software de renderizado 3D
+
+Las siguientes son tendencias en el espacio de renderizado 3D a las que debe estar atento:
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+● Renderizado en tiempo real: aquellos que usan software de renderizado 3D de
+manera regular pueden comenzar a esperar que el renderizado en tiempo real se
+vuelva más común. Los usuarios pueden explorar su modelo como de costumbre,
+pero también pueden modificar ese modelo en tiempo real.
+● Perspectivas de corte lateral: esta tendencia particular será útil para las personas
+en industrias como la arquitectura. La perspectiva de corte lateral será
+increíblemente beneficiosa cuando se trate de visualizar edificios de varios pisos.
+Corta la pared exterior, lo que significa que puede ver cada habitación en una sola
+vista.
+● Impresión 3D: el software de renderizado 3D permite a los usuarios visualizar su
+diseño en el mundo real antes de construirlo. Las impresoras 3D llevan esa
+visualización un paso más allá. Los usuarios pueden crear dentro de la plataforma
+de representación 3D como lo harían normalmente y luego imprimir el diseño con
+una impresora 3D, lo que les permite examinar físicamente su modelo.
+Problemas potenciales con el software de renderizado 3D
+El software de renderizado 3D es enormemente útil para aquellos en las industrias de
+construcción y diseño. Sin embargo, como con todas las soluciones de software, las
+herramientas de renderizado 3D tienen sus posibles desventajas.
  
