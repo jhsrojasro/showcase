@@ -1,5 +1,5 @@
 
-#Representación de Software
+# Representación de Software
 
 El software de renderizado 3D es el proceso de generar una imagen a partir de un modelo
 por medio de un software de computadora. El renderizado se utiliza en arquitectura,
@@ -27,17 +27,16 @@ con fines de interacción con el cliente o para crear nuevos tipos de medios.
 <li></li>
 </ul>
 <ul>
-<li></li>
-<li></li>
-<li></li>
+<li>Los usuarios pueden interactuar con sus modelos desde cualquier ángulo.  </li>
+<li>Los usuarios pueden ingresar medidas precisas de sus modelos 3D </li>
+<li>Los diseñadores pueden personalizar su modelo 3D tanto como sea necesario para
+adaptarse a las necesidades de sus clientes </li>
+<li>Los diseños creados con software de renderizado 3D son mucho más fáciles de
+distribuir que los diseños en papel.</li>
 </ul>
-● Los usuarios pueden interactuar con sus modelos desde cualquier ángulo.
-● Los usuarios pueden ingresar medidas precisas de sus modelos 3D
-● Los diseñadores pueden personalizar su modelo 3D tanto como sea necesario para
-adaptarse a las necesidades de sus clientes
-● Los diseños creados con software de renderizado 3D son mucho más fáciles de
-distribuir que los diseños en papel.
-¿Por qué utilizar software de renderizado 3D?
+
+
+## ¿Por qué utilizar software de renderizado 3D?
 Si está trabajando para crear un objeto o una estructura en 3D, su arsenal de productos de
 software debería permitirle planificar y diseñar también en 3D. Ahí es donde entra en juego
 el software de renderizado 3D. Estas soluciones ofrecen una serie de beneficios diferentes
