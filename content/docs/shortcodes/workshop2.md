@@ -1,5 +1,6 @@
 
-Representación de Software
+#Representación de Software
+
 El software de renderizado 3D es el proceso de generar una imagen a partir de un modelo
 por medio de un software de computadora. El renderizado se utiliza en arquitectura,
 simuladores, videojuegos, efectos visuales de películas y televisión y visualización de
@@ -19,7 +20,17 @@ profundidad a sus escenas y hacerlas lo más realistas posible. Los artistas vis
 industrias como el entretenimiento, la automoción, la arquitectura, la publicidad y el diseño
 web pueden utilizar soluciones de software de renderizado 3D para crear escenas realistas
 con fines de interacción con el cliente o para crear nuevos tipos de medios.
-Beneficios clave del software de renderizado 3D
+
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
 ● Los usuarios pueden interactuar con sus modelos desde cualquier ángulo.
 ● Los usuarios pueden ingresar medidas precisas de sus modelos 3D
 ● Los diseñadores pueden personalizar su modelo 3D tanto como sea necesario para
