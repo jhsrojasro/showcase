@@ -185,9 +185,19 @@ renderizado 3D para poder visualizar mejor el producto final.</li>
 
 <ul>
 <li><b>Representación de software:</b> La representación de software produce imágenes de la
-más alta calidad, lo que le permite lograr los resultados más sofisticados. El cómputo
+más alta calidad, lo que le permite lograr los resultados más sofisticados. El cómputo ocurre en la CPU, a diferencia del procesamiento de hardware, que se basa en la
+tarjeta gráfica de la máquina.
  </li>
-<li></li>
-<li></li>
+<li><b>Representación de hardware:</b> La renderización por hardware utiliza la tarjeta de
+video y los controladores de la computadora para renderizar imágenes en el disco.
+Por lo general, es más rápido que el renderizado por software, pero generalmente
+produce imágenes de menor calidad en comparación con el renderizado por
+software.</li>
+<li><b>Representación vectorial:</b> La representación vectorial le permite crear
+representaciones estilizadas (por ejemplo, dibujos animados, arte tonal, arte lineal,
+línea oculta, estructura alámbrica) en varios formatos de imagen de mapa de bits y
+formatos vectoriales 2D.</li>
+<li><b>Representación en la nube:</b> La renderización en la nube aprovecha una potencia
+informática virtualmente infinita. Cree rápidamente imágenes fotorrealistas y de alta
+resolución en una fracción del tiempo requerido en su escritorio.</li>
 </ul>
-
