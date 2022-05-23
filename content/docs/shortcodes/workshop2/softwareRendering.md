@@ -138,4 +138,56 @@ una impresora 3D, lo que les permite examinar físicamente su modelo.</li>
 El software de renderizado 3D es enormemente útil para aquellos en las industrias de
 construcción y diseño. Sin embargo, como con todas las soluciones de software, las
 herramientas de renderizado 3D tienen sus posibles desventajas.
- 
+
+<ul>
+<li><b>Expectativas poco realistas:</b> algunos expertos en la industria argumentan que el
+renderizado 3D puede dar a los usuarios expectativas poco realistas sobre cómo se
+verá su producto final. Como el producto a menudo termina luciendo diferente en la
+vida real, estas herramientas a veces pueden proporcionar diseños engañosos y
+conceptos confusos para el cliente.</li>
+<li><b>Costo:</b> como es un software muy avanzado, la representación 3D puede permitir a
+los usuarios crear un diseño increíblemente realista de un edificio u objeto. Pero
+debido a que ese diseño es tan realista, a menudo puede ser increíblemente
+costoso. Estas soluciones pueden estar fuera del presupuesto para empresas más
+pequeñas o usuarios individuales.</li>
+</ul>
+
+## Software y servicios relacionados con el software de renderizado 3D
+
+La representación 3D es un proceso muy técnico. Las siguientes categorías de software a
+menudo se pueden usar junto con el software de renderizado 3D para crear el resultado
+final óptimo para los diseñadores.
+
+<ul>
+<li><b>Software de modelado 3D:</b> estas soluciones permiten a los usuarios crear modelos
+3D básicos de objetos o personajes, además de brindarles la capacidad de
+desarrollar esos modelos con detalles realistas. El software de modelado 3D a
+menudo viene con la funcionalidad de pintura 3D para dar la mayor cantidad de
+detalles posible a los modelos 3D. Después de crear un modelo en una plataforma
+de modelado 3D, normalmente se carga en una solución de software de renderizado
+3D.</li>
+<li><b>Software de animación:</b> estas herramientas permiten a los usuarios generar
+gráficos en movimiento a partir de archivos visuales estáticos. Los usuarios pueden
+animar gráficos dibujados a mano o generados por computadora con estas
+soluciones. Algunas soluciones de renderizado 3D ya vienen equipadas con
+capacidades de animación. Pero para aquellos que no lo hacen, tienden a integrarse
+con software de animación.</li>
+<li><b>Software CAD de uso general:</b> los arquitectos, ingenieros y otros profesionales de
+las industrias relacionadas con la construcción utilizan software CAD de uso general
+para diseñar edificios. Este software fue creado con la intención de reemplazar el
+dibujo manual 2D. Estas herramientas representan y visualizan objetos usando una
+colección de puntos en tres dimensiones en una computadora. Al igual que con el
+software de modelado 3D, los usuarios pueden cargar sus diseños en el software de
+renderizado 3D para poder visualizar mejor el producto final.</li>
+</ul>
+
+## Tipos de Renderización:
+
+<ul>
+<li><b>Representación de software:</b> La representación de software produce imágenes de la
+más alta calidad, lo que le permite lograr los resultados más sofisticados. El cómputo
+ </li>
+<li></li>
+<li></li>
+</ul>
+
