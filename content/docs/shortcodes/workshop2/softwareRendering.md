@@ -21,11 +21,6 @@ industrias como el entretenimiento, la automoción, la arquitectura, la publicid
 web pueden utilizar soluciones de software de renderizado 3D para crear escenas realistas
 con fines de interacción con el cliente o para crear nuevos tipos de medios.
 
-<ul>
-<li></li>
-<li></li>
-<li></li>
-</ul>
 <b>Beneficios clave del software de renderizado 3D</b>
 <ul>
 <li>Los usuarios pueden interactuar con sus modelos desde cualquier ángulo.  </li>
