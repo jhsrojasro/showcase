@@ -215,6 +215,8 @@ Imagen
 
 ### Rasterator
 
+<img width="345" alt="screen1" src="https://ibb.co/pXk7qxN">
+
 <ul>
 <li>Implementación casi completa del pipeline de los gráficos.</li>
 <li>Framerates interactivos</li>
