@@ -208,3 +208,50 @@ Rasterizador de software en tiempo real que utiliza shaders de cómputo, incluid
 procesamiento de vértices y rasterización de píxeles. El sombreador, o shader, es un
 programa o aplicación informática que se ejecuta en la tarjeta gráfica o GPU, y que permite
 realizar las sombras de los gráficos de un modelo.
+
+Imagen
+
+
+
+### Rasterator
+
+<ul>
+<li>Implementación casi completa del pipeline de los gráficos.</li>
+<li>Framerates interactivos</li>
+<li>Almacenamiento en búfer de profundidad</li>
+<li>Interpolación de atributos de vértices correctos</li>
+<li>Multi hilo con OpenMP</li>
+<li>Mapeo y filtrado de texturas bilineal</li>
+<li>Funciona en múltiples plataformas</li>
+</ul>
+
+Imagen
+
+
+
+El software cuenta con algunas funcionalidades como:
+
+<ul>
+<li>Rotar el modelo</li>
+ Imagen
+<li>Darle textura e iluminación</li>
+ Imagen
+<li>Ver los vectores normales a la superficie del modelo</li>
+ 
+ Imagen
+ 
+<li>Acercar y alejar el objeto</li>
+ 
+ Imagen
+ 
+ 
+</ul>
+
+Se pueden crear distintos diseños y es un programa muy adecuado para aprender los conceptos básicos de las tuberías de renderizado (pipelines)
+
+##Conclusiones
+
+El renderizado 3d tiene aplicaciones en múltiples campos y disciplinas, desde el diseño de videojuegos, publicidad, arquitectura, etc. 
+Permite crear elementos gráficos únicos que se pueden aplicar en animaciones, post renderizado para agregar detalles, texturas e iluminación.
+El Render 3D permite a los diseñadores ser más expresivos sin temor a que el cliente no entienda el diseño. Hace realidad cada detalle de manera que el cliente ve y comprende exactamente el concepto del diseñador. Permite que las ideas de diseño se transmitan a los clientes a través de recorridos animados en 3D e imágenes renderizadas.
+El renderizado también tiene sus inconvenientes, como que puede tardar mucho tiempo en completarse o que puede ser excesivamente caro.
