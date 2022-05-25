@@ -215,7 +215,7 @@ Imagen
 
 ### Rasterator
 
-<img width="345" alt="screen1" src="https://ibb.co/pXk7qxN">
+<a href="https://ibb.co/pXk7qxN"><img src="https://i.ibb.co/cTsBq1R/screenshot1.png" alt="screenshot1" border="0"></a>
 
 <ul>
 <li>Implementación casi completa del pipeline de los gráficos.</li>
@@ -235,21 +235,23 @@ El software cuenta con algunas funcionalidades como:
 
 <ul>
 <li>Rotar el modelo</li>
- Imagen
+ <a href="https://imgbb.com/"><img src="https://i.ibb.co/c6H7Hvr/screenshot2.png" alt="screenshot2" border="0"></a>
 <li>Darle textura e iluminación</li>
- Imagen
+ <a href="https://ibb.co/4KDJH5Q"><img src="https://i.ibb.co/7jTbq69/screenshot3.png" alt="screenshot3" border="0"></a>
 <li>Ver los vectores normales a la superficie del modelo</li>
  
- Imagen
+ <a href="https://imgbb.com/"><img src="https://i.ibb.co/ZN9Z0CC/screenshot4.png" alt="screenshot4" border="0"></a>
  
 <li>Acercar y alejar el objeto</li>
  
- Imagen
+ <a href="https://imgbb.com/"><img src="https://i.ibb.co/5hNyp2m/screenshot5.png" alt="screenshot5" border="0"></a>
  
  
 </ul>
 
 Se pueden crear distintos diseños y es un programa muy adecuado para aprender los conceptos básicos de las tuberías de renderizado (pipelines)
+
+<a href="https://ibb.co/Src51cd"><img src="https://i.ibb.co/vYhVrhQ/preview.gif" alt="preview" border="0"></a>
 
 ## Conclusiones
 
