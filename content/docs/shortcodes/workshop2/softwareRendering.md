@@ -209,7 +209,7 @@ procesamiento de vértices y rasterización de píxeles. El sombreador, o shader
 programa o aplicación informática que se ejecuta en la tarjeta gráfica o GPU, y que permite
 realizar las sombras de los gráficos de un modelo.
 
-Imagen
+<a href="https://ibb.co/TP9YwT7"><img src="https://i.ibb.co/XFcjW4K/screenshot0.png" alt="screenshot0" border="0"></a>
 
 
 
