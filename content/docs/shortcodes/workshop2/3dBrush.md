@@ -25,7 +25,7 @@ El objetivo de la estimación de la profundidad es obtener una representación d
 
 El aprendizaje profundo tiene un desempeño sobresaliente en tareas perceptuales y cognitivas como reconocimiento, detección y comprensión de escenas. La percepción de la profundidad se encuentra dentro de estas categorías.
 
-<img alt="Epipolar Geometry" src="[https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Aufnahme_mit_zwei_Kameras.svg/250px-Aufnahme_mit_zwei_Kameras.svg.png](https://ars.els-cdn.com/content/image/1-s2.0-S0925231220320014-gr6.jpg)">
+<img alt="Deep Learning for Depth Estimation" src="https://ars.els-cdn.com/content/image/1-s2.0-S0925231220320014-gr6.jpg">
 
 Google tiene un modelo de reconocimiento de manos utilizando su plataforma MediaPipe [4] (una plataforma que permite hacer pipelines de datos perceptuales: video y audio) que consiste en un pipeline de dos modelos:
 
