@@ -249,7 +249,7 @@ El software cuenta con algunas funcionalidades como:
 
 Se pueden crear distintos diseños y es un programa muy adecuado para aprender los conceptos básicos de las tuberías de renderizado (pipelines)
 
-##Conclusiones
+## Conclusiones
 
 El renderizado 3d tiene aplicaciones en múltiples campos y disciplinas, desde el diseño de videojuegos, publicidad, arquitectura, etc. 
 Permite crear elementos gráficos únicos que se pueden aplicar en animaciones, post renderizado para agregar detalles, texturas e iluminación.
