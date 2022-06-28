@@ -17,18 +17,18 @@ let rgb;
 const SAMPLE_RES = 100;
 
 function preload() {
-  image_src = loadImage("/showcase/content/sketches/messi.jpg");
-  video_src = createVideo(["/showcase/content/sketches/messi-skill.mp4"]);
+  image_src = loadImage("/showcase/sketches/messi.jpg");
+  video_src = createVideo(["/showcase/sketches/messi-skill.mp4"]);
   video_src.hide(); // by default video shows up in separate dom
-  mosaic = readShader("/showcase/content/sketches/shaders/photomosaic.frag");
+  mosaic = readShader("/showcase//sketches/shaders/photomosaic.frag");
   p = [];
   for (let i = 1; i <= 40; i++) {
     if (i.toString().length == 1) {
-      p.push(loadImage(`/showcase/content/sketches/shaders/paintings/00000${i}.jpg`));
+      p.push(loadImage(`/showcase/sketches/shaders/paintings/00000${i}.jpg`));
     } else {
-      p.push(loadImage(`/showcase/content/sketches/shaders/paintings/0000${i}.jpg`));
+      p.push(loadImage(`/showcase/sketches/shaders/paintings/0000${i}.jpg`));
     }
-    //p.push(loadImage(`/showcase/content/sketches/shaders/paintings_1/p${i}.jpg`));
+    //p.push(loadImage(`/showcase/sketches/shaders/paintings_1/p${i}.jpg`));
   }
 }
 
