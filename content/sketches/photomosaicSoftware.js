@@ -18,9 +18,9 @@ function preload() {
   photos = [];
   for (let i = 1; i <= 40; i++) {
     if (i.toString().length == 1) {
-      photos.push(loadImage(`/showcase/sketches/shaders/paintings/00000${i}.jpg`));
+      photos.push(loadImage(`/showcase/sketches/shaders/paintings2/00000${i}.jpg`));
     } else {
-      photos.push(loadImage(`/showcase/sketches/shaders/paintings/0000${i}.jpg`));
+      photos.push(loadImage(`/showcase/sketches/shaders/paintings2/0000${i}.jpg`));
     }
   }
 }
