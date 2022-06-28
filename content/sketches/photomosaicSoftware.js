@@ -12,8 +12,8 @@ let blues = [];
 let greens = [];
 
 function preload() {
-  image_src = loadImage("/showcase/sketches/bisho.jpg");
-  video_src = createVideo(["/showcase/sketches/maradona.mp4"]);
+  image_src = loadImage("/showcase/sketches/messi.jpg");
+  video_src = createVideo(["/showcase/sketches/messi-skill.mp4"]);
   video_src.hide(); // by default video shows up in separate dom
   photos = [];
   for (let i = 1; i <= 40; i++) {
