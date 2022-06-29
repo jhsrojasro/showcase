@@ -2,19 +2,19 @@ let cubos = [new Cubo(0, 0, 0, 200)]
 
     function setup() {
       createCanvas(400, 400, WEBGL) 
-      siguienteGeneración()
-           
+      siguienteGeneración()          
     }
 
     function draw() {
       background("lightgray")
       fill("dodgerblue")
       noStroke()
-      translate(0, -20, 0)
-      rotateX(0)
-      rotateY(frameCount * 0.01)
+      //translate(0, -20, 0)
+      //rotateX(0)
+      //rotateY(frameCount * 0.01)
       lights()
       directionalLight(color("blue"),0,-1,0)
+      orbitControl()
       for (const cubo of cubos) {
         cubo.dibujar()
       }
