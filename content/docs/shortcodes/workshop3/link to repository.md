@@ -1,1 +1,1 @@
-<a href="https://jhsrojasro.github.io/shadersExamples/public/pages/index.html">Workshop 3</a>
+[Workshop 3] (https://jhsrojasro.github.io/shadersExamples/public/pages/index.html) 
