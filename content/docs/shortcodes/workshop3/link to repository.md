@@ -1,1 +1,2 @@
-Link al repositorio: [Workshop 3](https://jhsrojasro.github.io/shadersExamples/public/pages/index.html) 
+Link a la pagina desplegada: [Workshop 3](https://jhsrojasro.github.io/shadersExamples/public/pages/index.html) 
+Link al repositorio: [Repositorio Github](https://github.com/jhsrojasro/shadersExamples)
