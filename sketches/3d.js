@@ -1,71 +1,3 @@
-let cubos = [new Cubo(0, 0, 0, 200)]
-
-    function setup() {
-      createCanvas(400, 400, WEBGL) 
-      siguienteGeneración()          
-    }
-
-    function draw() {
-      background("lightgray")
-      fill("dodgerblue")
-      noStroke()
-      //translate(0, -20, 0)
-      //rotateX(0)
-      //rotateY(frameCount * 0.01)
-      lights()
-      directionalLight(color("blue"),0,-1,0)
-      orbitControl()
-      for (const cubo of cubos) {
-        cubo.dibujar()
-      }
-    }
-
-    function siguienteGeneración() {
-      let fracciones = []
-      for (const cubo of cubos) {
-        let cuboFraccionado = cubo.fraccionar()
-        for (const fraccion of cuboFraccionado) {
-          fracciones.push(fraccion)
-        }
-      }
-      cubos = fracciones
-    }
-
-    function Cubo(x, y, z, lado) {
-      this.x = x
-      this.y = y
-      this.z = z
-      this.lado = lado
-      this.dibujar = function() {
-        push()
-        translate(this.x, this.y, this.z)
-        box(this.lado)
-        pop()
-      }
-      this.fraccionar = function() {
-        let fracciones = []
-        for (let x = -1; x <= 1; x++) {
-          for (let y = -1; y <= 1; y++) {
-            for (let z = -1; z <= 1; z++) {
-              if (sqrt(x * x + y * y + z * z) <= 1) {
-                continue
-              }
-              fracciones.push(
-                new Cubo(
-                  this.x + x * this.lado / 3,
-                  this.y + y * this.lado / 3,
-                  this.z + z * this.lado / 3,
-                  this.lado / 3
-                )
-              )
-            }
-          }
-        }
-        return fracciones
-      }
-    }
-
-/*
 function setup() {
   createCanvas(710, 400, WEBGL);
 }
@@ -122,4 +54,3 @@ function draw() {
   sphere(70);
   pop();
 }
-*/
