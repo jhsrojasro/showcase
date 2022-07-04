@@ -1,1 +1,1 @@
-[Workshop 3] (https://jhsrojasro.github.io/shadersExamples/public/pages/index.html) 
+Link al repositorio: [Workshop 3] (https://jhsrojasro.github.io/shadersExamples/public/pages/index.html) 
